@@ -1,0 +1,67 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Restaurante</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0; 
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            min-height: 100vh;
+        }
+
+        .sidebar {
+            width: 200px;
+            background-color: #2c3e50;
+            padding: 20px;
+            color: white;
+        }
+
+        .sidebar h2 {
+            margin-bottom: 30px;
+            font-size: 20px;
+        }
+
+        .sidebar a {
+            display: block;
+            color: white;
+            text-decoration: none;
+            margin-bottom: 15px;
+            padding: 10px;
+            border-radius: 5px;
+            background-color: #34495e;
+            transition: background-color 0.3s;
+        }
+
+        .sidebar a:hover {
+            background-color: #1abc9c;
+        }
+
+        .main-content {
+            flex: 1;
+            padding: 40px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="sidebar">
+    <h2>Menú</h2>
+    <a href="form.jsp">➕ Agregar Plato</a>
+    <a href="PlatoServlet">📋 Ver Platos</a>
+</div>
+
+<div class="main-content">
+    <h1>Bienvenido al sistema del Restaurante</h1>
+    <p>Usa la barra lateral para navegar.</p>
+</div>
+
+</body>
+</html>

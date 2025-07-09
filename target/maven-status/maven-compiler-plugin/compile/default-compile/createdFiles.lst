@@ -1,0 +1,5 @@
+com\mycompany\restaurante\dao\PlatoDAO.class
+com\mycompany\restaurante\resources\JakartaEE8Resource.class
+com\mycompany\restaurante\controller\PlatoServlet.class
+com\mycompany\restaurante\JakartaRestConfiguration.class
+com\mycompany\restaurante\model\Plato.class
